@@ -1,0 +1,32 @@
+# Ignore everything inside the data folder
+data/*
+
+# But keep the data folder itself
+!data/
+!data/.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Logs, system, and cache files
+*.log
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Model and binary files
+*.pkl
+*.joblib
+*.h5
