@@ -16,6 +16,14 @@ ML_Fundamentals/
 │   ├── 05_Random_Forest.ipynb
 │   ├── 06_SVM.ipynb
 │   └── 07_Linear_Regression.ipynb
+├── scripts/               # Python (.py) versions of Jupyter Notebooks
+│   ├── logistic_regression.py
+│   ├── knn.py
+│   ├── decision_tree.py
+│   ├── naive_bayes.py
+│   ├── random_forest.py
+│   ├── svm.py
+│   └── linear_regression.py
 ├── .gitignore             # Files and folders to be ignored by Git
 └── README.md              # Project documentation (this file)
 ```
@@ -77,10 +85,30 @@ cd ML_Fundamentals
 pip install -r requirements.txt
 ```
 
+## ▶️ Running Python Scripts
+
+The `scripts/` folder contains `.py` versions of all Jupyter notebooks for easy execution from the terminal or any IDE like VS Code. These scripts are well-structured, modular, and mirror the functionality of the notebooks.
+
+To run a Python script:
+
+```bash
+python scripts/logistic_regression.py
+```
+
+Replace `logistic_regression.py` with the script you'd like to run.
+
+### 🔧 IDE Usage (e.g., VS Code)
+
+- Open the folder in VS Code.
+- Navigate to the `scripts/` directory.
+- Open and run any `.py` file directly using the built-in terminal or run button.
+
+This approach showcases familiarity with `.py` based ML workflows, ideal for professional and production-grade development.
+
 ## 📝 Note
 
 - Make sure to place your datasets inside the `data/` folder.
-- If any notebook throws a `FileNotFoundError`, check your working directory or update the path accordingly.
+- If any notebook or script throws a `FileNotFoundError`, check your working directory or update the path accordingly.
 
 ---
 
@@ -89,3 +117,5 @@ Built with ❤️ for ML practice and learning.
 ---
 
 Feel free to contribute or suggest improvements!
+
+📌 Connect with me on [LinkedIn](https://www.linkedin.com/in/shantanumohod)
